@@ -1,4 +1,13 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<!-- <hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p> -->
+
+<mat-tab-group
+  [selectedIndex]="selected"
+  (selectedTabChange)="onselectTab($event)"
+>
+  <mat-tab label="Reports"> Content 1 </mat-tab>
+  <mat-tab label="Tracker"> Content 2 </mat-tab>
+</mat-tab-group>
+
+<!-- selectedIndex -- Index of the active tab -->
+<!-- selectedTabChange -- Event emitted when the tab selection has changed.  -->

@@ -1,8 +1,9 @@
 /* Add application styles & imports to this file! */
-html{
+@import '../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css';
+html {
   text-align: center;
   padding: 20px 0;
 }
-svg{
+svg {
   height: 50vh;
 }
